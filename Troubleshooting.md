@@ -1,1 +1,2 @@
-https://github.com/s0md3v/roop/issues/68
+1. Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
+2. Do not install `onnxruntime` and `onnxruntime-gpu` at the same time. If you did, uninstall both and reinstall `onnxruntime-gpu`.
