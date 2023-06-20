@@ -9,8 +9,9 @@
 9. [Threads](#threads)
 
 ### Using GPU
-**option:** `--execution-provider`
+**option:** `--execution-provider`\
 **default:** `cpu`
+
 Depending on what **onnxruntime** package you installed, specify the respective execution provider with this option to utilize your GPU. Below is a list of popular execution providers, the complete list can be found [here](https://onnxruntime.ai/docs/execution-providers/). If you are not sure, use the `--help` option to see the available providers in your console.
 
 - `cuda`: for NVIDIA
