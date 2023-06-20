@@ -14,12 +14,12 @@ Make sure to run Python 3.10 to prevent dependencies conflicts.
 
 ### No module named 'xxx'
 
-A `ModuleNotFoundError` indicates that the dependencies have not been installed.
+A `ModuleNotFoundError` indicates that the dependencies have not been correctly installed.
 
 
 ### Module 'xxx' has no attribute 'xxx'
 
-A `AttributeError`  indicates that the dependencies have not been installed.
+A `AttributeError` indicates that the dependencies have not been correctly installed.
 
 
 ### Learn from others
