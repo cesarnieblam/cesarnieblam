@@ -22,6 +22,11 @@ pip uninstall onnxruntime onnxruntime-xxx
 pip install onnxruntime-xxx
 ```
 
+### Progress bar got stucked
+
+Congrats, you triggered the NSFW filter and the application stopped processing.
+
+
 ### Ask the community
 
 Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.gg/Y9p4ZQ2sB9) community that will guide you through your journey to successfully install roop.
