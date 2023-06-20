@@ -4,8 +4,6 @@ Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise o
 
 ```
 pip uninstall onnxruntime onnxruntime-xxx
-```
-```
 pip install onnxruntime-xxx
 ```
 
