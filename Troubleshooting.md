@@ -1,15 +1,18 @@
+### Only CPU processing
 
-### Only CPUExecutionProvider is working
-
-Do not install `onnxruntime` and `onnxruntime-xxx` at the same time.
+Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise only `CPUExecutionProvider` will run.
 
 ```
 pip uninstall onnxruntime onnxruntime-xxx
 ```
-
 ```
 pip install onnxruntime-xxx
 ```
+
+### Falsy Dependencies resolution
+
+Make sure to run Python 3.10 to prevent dependencies conflicts and therfore resolution.
+
 
 ### Learn from others
 
