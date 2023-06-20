@@ -1,3 +1,14 @@
+### Using GPU
+**option:** `--execution-provider`
+**default:** `CPUExecutionProvider`
+
+Depending on what **onnxruntime** package you installed, specify the respective execution provider with this option to utilize your GPU. Below is a list of popular execution providers, the complete list can be found [here](https://onnxruntime.ai/docs/execution-providers/).
+
+- `CUDAExecutionProvider`: for NVIDIA
+- `ROCMExecutionProvider`: for AMD (linux only)
+- `DmlExecutionProvider`: for windows
+- `CoreMLExecutionProvider`: for mac
+
 ### Choosing a frame processor
 **option:** `--frame-processor`\
 **default:** `face_swapper`
@@ -41,4 +52,3 @@ You wouldn't need to touch this option but in case you do, it accepts an number 
 **default:** `16`
 
 If you want to limit how much VRAM roop can use, use this option. It accepts a number e.g. `--max-memory 4` means 4GB limit.
-
