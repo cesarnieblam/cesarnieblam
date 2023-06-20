@@ -13,7 +13,7 @@ A `ModuleNotFoundError` indicates that the dependencies have not been correctly 
 A `AttributeError` indicates that the dependencies have not been correctly installed.
 
 
-### Only CPU processing
+### Only CPU is processing
 
 Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise only `CPUExecutionProvider` will run.
 
