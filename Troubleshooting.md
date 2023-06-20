@@ -13,6 +13,15 @@ A `ModuleNotFoundError` indicates that the dependencies have not been correctly 
 A `AttributeError` indicates that the dependencies have not been correctly installed.
 
 
+### Any OpenCV error
+
+In most cases it helps to uninstall and then install OpenCV.
+
+```
+pip uninstall opencv-python
+pip install opencv-python
+```
+
 ### Only CPU is processing
 
 Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise only `CPUExecutionProvider` will run.
