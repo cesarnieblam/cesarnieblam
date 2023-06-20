@@ -1,4 +1,4 @@
-## Replicated
+## Replicate
 
 https://replicate.com/okaris/roop
 
