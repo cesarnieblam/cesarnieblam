@@ -25,7 +25,7 @@ Depending on what **onnxruntime** package you installed, specify the respective 
 
 This option lets you choose one or more "frame processor" that apply various affect to the video. If you are using multiple processors, they should be separated by commas. Following frame processors are available:
 - `face_swapper`: swaps face(s)
-- `face_enchancer`: enhances the face(s) using GFPGAN v1.4
+- `face_enhancer`: enhances the face(s) using GFPGAN v1.4
 
 ### Preserving video's FPS
 **option:** `--keep-fps`\
