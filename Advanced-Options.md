@@ -1,3 +1,13 @@
+1. [Using GPU](#using-gpu)
+2. [Choosing a frame processor](#choosing-a-frame-processor)
+3. [Preserving video's FPS](#preserving-videos-fps)
+4. [Don't delete generated frames](#dont-delete-generate-frames)
+5. [Replace all faces](#replace-all-faces)
+6. [Choose a video encoder](#choose-a-video-encoder)
+7. [Set video quality](#set-video-quality)
+8. [Limit VRAM](#limit-vram)
+9. [Threads](#threads)
+
 ### Using GPU
 **option:** `--execution-provider`
 **default:** `cpu`
