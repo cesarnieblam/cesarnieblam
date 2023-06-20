@@ -22,6 +22,6 @@ pip uninstall onnxruntime onnxruntime-xxx
 pip install onnxruntime-xxx
 ```
 
-### Learn from others
+### Ask the community
 
-Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
+Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.gg/Y9p4ZQ2sB9) community that will guide you through your journey to successfully install roop.
