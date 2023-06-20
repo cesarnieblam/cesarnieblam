@@ -11,7 +11,7 @@ pip install onnxruntime-xxx
 
 ### Falsy Dependencies resolution
 
-Make sure to run Python 3.10 to prevent dependencies conflicts and therfore resolution.
+Make sure to run Python 3.10 to prevent dependencies conflicts.
 
 
 ### Learn from others
