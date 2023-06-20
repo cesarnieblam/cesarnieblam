@@ -57,13 +57,13 @@ This lets you choose a video encoder, currently available encoders are: libx264,
 
 You wouldn't need to touch this option but in case you do, it accepts an number from 1 to 51.
 
-#### Limit VRAM
+### Limit VRAM
 **option:** `--max-memory`\
 **default:** system dependent
 
 If you want to limit how much VRAM roop can use, use this option. It accepts a number e.g. `--max-memory 4` means 4GB limit.
 
-#### Threads
+### Threads
 **option:** `--execution-threads`\
 **default:** system dependent
 
