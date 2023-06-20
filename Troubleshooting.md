@@ -1,3 +1,16 @@
-1. Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
-2. Do not install `onnxruntime` and `onnxruntime-gpu` at the same time. If you did, uninstall both and reinstall `onnxruntime-gpu`. If that doesn't work, uninstall it and install `onnxruntime`.
-3. If you are having trouble installing `insightface`, take a look [here](https://github.com/s0md3v/roop/issues/62#issuecomment-1567767800).
+
+### Only CPUExecutionProvider is working
+
+Do not install `onnxruntime` and `onnxruntime-xxx` at the same time.
+
+```
+pip uninstall onnxruntime onnxruntime-xxx
+```
+
+```
+pip install onnxruntime-xxx
+```
+
+### Learn from others
+
+Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
