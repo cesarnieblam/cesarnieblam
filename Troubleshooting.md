@@ -17,6 +17,11 @@ Make sure to run Python 3.10 to prevent dependencies conflicts.
 A `ModuleNotFoundError` indicates that the dependencies have not been installed.
 
 
+### Module 'xxx' has no attribute 'xxx'
+
+A `AttributeError`  indicates that the dependencies have not been installed.
+
+
 ### Learn from others
 
 Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
