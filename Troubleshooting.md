@@ -13,9 +13,9 @@ A `ModuleNotFoundError` indicates that the dependencies have not been correctly 
 A `AttributeError` indicates that the dependencies have not been correctly installed.
 
 
-### Any OpenCV error
+### Solution to most OpenCV errors
 
-In most cases it helps to uninstall and then install OpenCV.
+In most cases it helps to reinstall OpenCV.
 
 ```
 pip uninstall opencv-python
