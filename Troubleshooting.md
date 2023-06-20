@@ -1,12 +1,3 @@
-### Only CPU processing
-
-Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise only `CPUExecutionProvider` will run.
-
-```
-pip uninstall onnxruntime onnxruntime-xxx
-pip install onnxruntime-xxx
-```
-
 ### Falsy Dependencies resolution
 
 Make sure to run Python 3.10 to prevent dependencies conflicts.
@@ -21,6 +12,15 @@ A `ModuleNotFoundError` indicates that the dependencies have not been correctly 
 
 A `AttributeError` indicates that the dependencies have not been correctly installed.
 
+
+### Only CPU processing
+
+Do not install `onnxruntime` and `onnxruntime-xxx` at the same time, otherwise only `CPUExecutionProvider` will run.
+
+```
+pip uninstall onnxruntime onnxruntime-xxx
+pip install onnxruntime-xxx
+```
 
 ### Learn from others
 
