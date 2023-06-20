@@ -12,6 +12,11 @@ pip install onnxruntime-xxx
 Make sure to run Python 3.10 to prevent dependencies conflicts.
 
 
+### No module named 'xxx'
+
+A `ModuleNotFoundError` indicates that the dependencies have not been installed.
+
+
 ### Learn from others
 
 Tips from people who are running it successfully: https://github.com/s0md3v/roop/issues/68
