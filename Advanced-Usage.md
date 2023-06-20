@@ -23,37 +23,37 @@ This option lets you choose one or more "frame processor" that apply various aff
 roop reduces the FPS of the video to 30 by default for faster processing but if you would like to preserve the original FPS, you can use this switch.
 
 ### Don't delete generate frames
-**option:** `--keep-frames`
+**option:** `--keep-frames`\
 **default:** `False`
 
 While processing a video, roop extracts all of its frames and stores them locally. The directory containing them is deleted once the process has been finished. Using `--keep-frames` switch will prevent deletion.
 
 ### Replace all faces
-**option:** `--many-faces`
+**option:** `--many-faces`\
 **default:** `False`
 
 By default, only one face is replaced in each frame that too the leftmost face in the frame. If you want to replace all of the faces, use this switch.
 
 ### Choose a video encoder
-**option:** `--video-encoder`
+**option:** `--video-encoder`\
 **default:** `libx264`
 
 This lets you choose a video encoder, currently available encoders are: libx264, libx265, libvpx-vp9`
 
 ### Set video quality
-**option:** `--video-quality`
+**option:** `--video-quality`\
 **default:** `18`
 
 You wouldn't need to touch this option but in case you do, it accepts an number from 1 to 51.
 
 #### Limit VRAM
-**option:** `--max-memory`
+**option:** `--max-memory`\
 **default:** system dependent
 
 If you want to limit how much VRAM roop can use, use this option. It accepts a number e.g. `--max-memory 4` means 4GB limit.
 
 #### Threads
-**option:** `--execution-threads`
+**option:** `--execution-threads`\
 **default:** system dependent
 
 This control how many threads should run in parallel to process the frames using the given execution provider. Play around with different values to find out what works best on your system.
