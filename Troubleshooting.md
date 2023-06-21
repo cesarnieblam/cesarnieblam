@@ -3,6 +3,11 @@
 Make sure to run Python 3.10 to prevent dependencies conflicts.
 
 
+### Runtime errors during processing
+
+Either `Non zero status code...` or `Cannot allocate memory...` during processing result in lost frames and indicate that your GPU is out of VRAM - lower the threads.
+
+
 ### No module named 'xxx'
 
 A `ModuleNotFoundError` indicates that the dependencies have not been correctly installed.
