@@ -36,14 +36,14 @@ pip uninstall onnxruntime onnxruntime-xxx
 pip install onnxruntime-xxx
 ```
 
-### Progress bar got stucked
+### Progress stucked
 
-You triggered the NSFW filter and the application stopped processing.
+You probably triggered the NSFW filter and the application stopped processing.
 
 
 ### Preview crashed
 
-You triggered the NSFW filter and the application closed itself.
+You probably triggered the NSFW filter and the application closed itself.
 
 
 ### Ask the community
