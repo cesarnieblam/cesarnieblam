@@ -5,7 +5,7 @@ Make sure to run Python 3.10 to prevent dependencies conflicts.
 
 ### Runtime errors during processing
 
-Either `Non zero status code...` or `Cannot allocate memory...` during processing result in lost frames and indicate that your GPU is out of VRAM - lower the threads.
+A `Non zero status code...` or `Cannot allocate memory...` during processing results in lost frames and indicate that your GPU is out of VRAM or just overwhelmed - you need to lower the execution threads.
 
 
 ### No module named 'xxx'
