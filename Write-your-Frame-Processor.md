@@ -1,5 +1,3 @@
-## Write your Frame Processor
-
 ### 1: Create a new Python module
 
 Create a new Python file in the `roop/processors/frame` directory. This file will be your frame processor module.
@@ -50,4 +48,12 @@ def process_image(source_path: str, target_path: str, output_path: str) -> None:
 
 def process_video(source_path: str, temp_frame_paths: List[str]) -> None:
     pass
+```
+
+### 3: Test Your Custom Processor
+
+Once you have defined the required hooks in your frame processor module, you can test it by running Roop with the `--frame-processor` argument set to process the logic you defined.
+
+```
+python roop.py --frame-processor your_processor_name
 ```
