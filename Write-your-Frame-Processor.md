@@ -12,6 +12,9 @@ This function is called before starting. It should return a boolean indicating w
 #### `pre_start()`
 This function is called before processing. It should return a boolean indicating whether the pre-start was successful or not.
 
+#### `post_process()`
+This function is called after processing.
+
 #### `process_frame(source_face: Face, temp_frame: Frame)`
 This function is called to process one frames.
 
@@ -38,6 +41,9 @@ def pre_check() -> bool:
 
 def pre_start() -> bool:
     return True
+
+def post_process() -> None:
+    pass
 
 def process_frame(source_face: Face, temp_frame: Frame) -> Frame:
     pass
