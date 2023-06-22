@@ -27,6 +27,8 @@ This function is called when processing a video. It should process each frame in
 ### Use this skeleton
 
 ```
+import roop.globals
+import roop.processors.frame.core
 from roop.typing import Frame, Face
 
 NAME = 'ROOP.YOUR-FRAME_PROCESSOR'
@@ -47,7 +49,7 @@ def process_image(source_path: str, target_path: str, output_path: str) -> None:
     pass
 
 def process_video(source_path: str, temp_frame_paths: List[str]) -> None:
-    pass
+    roop.processors.frame.core.process_video(source_path, temp_frame_paths, process_frames)
 ```
 
 ### 3: Test Your Custom Processor
