@@ -55,5 +55,5 @@ def process_video(source_path: str, temp_frame_paths: List[str]) -> None:
 Once you have defined the required hooks in your frame processor module, you can test it by running Roop with the `--frame-processor` argument set to process the logic you defined.
 
 ```
-python roop.py --frame-processor your_frame_processor
+python run.py --frame-processor your_frame_processor
 ```
