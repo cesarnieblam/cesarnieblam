@@ -1,6 +1,6 @@
 ### 1: Create a new Python module
 
-Create a new Python file in the `roop/processors/frame` directory. This file, for example `your_processor`, will be your frame processor module.
+Create a new Python file in the `roop/processors/frame` directory. This file, for example `your_frame_processor.py`, will be your frame processor module.
 
 ### 2: Define required functions
 
@@ -29,7 +29,7 @@ This function is called when processing a video. It should process each frame in
 ```
 from roop.typing import Frame, Face
 
-NAME = 'ROOP.YOUR-PROCESSOR'
+NAME = 'ROOP.YOUR-FRAME_PROCESSOR'
 
 def pre_check() -> bool:
     return True
@@ -55,5 +55,5 @@ def process_video(source_path: str, temp_frame_paths: List[str]) -> None:
 Once you have defined the required hooks in your frame processor module, you can test it by running Roop with the `--frame-processor` argument set to process the logic you defined.
 
 ```
-python roop.py --frame-processor your_processor
+python roop.py --frame-processor your_frame_processor
 ```
