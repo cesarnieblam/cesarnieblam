@@ -4,14 +4,14 @@ Describes the snapshot of a face being used for the face recognition during proc
 
 #### Different approaches
 
-1. Define the face position via `--reference-face-position` on a specific frame number `--reference-frame-number`
+1. Define the face position via `--reference-face-position` on a specific frame `--reference-frame-number` using the target video
 2. Upload a image via `--reference-path` and to extract the face (not implemented yet)
 
 ### Face recognition
 
 Describes the process of comparing two faces against a given threshold, called face distance.
 
-You can adjust the threshold via `--similar-face-distance`. Default is `0.85`. In case you experience bouncing on a single person video, try to lower the threshold or disable face recognition by using `--many-faces`
+You can adjust the threshold via `--similar-face-distance`. Default is `0.85`. In case you experience bouncing on a single person video, try to lower the threshold or disable face recognition by using `--many-faces`.
 
 ### Face distance
 
