@@ -19,4 +19,4 @@ Describes how similar two faces are.
 
 ### Face bouncing
 
-Describes flicker between person during processing frames as of failing face recognition.
+Describes flicker between persons during processing frames as of failing face recognition.
