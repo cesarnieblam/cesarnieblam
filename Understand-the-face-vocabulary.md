@@ -11,14 +11,12 @@ Describes the snapshot of a face being used for the face recognition during proc
 
 Describes the process of comparing two faces against a given threshold, called face distance.
 
-You can adjust the threshold via `--similar-face-distance`. Default is `0.85`
+You can adjust the threshold via `--similar-face-distance`. Default is `0.85`. In case you experience bouncing on a single person video, try to lower the threshold or disable face recognition by using `--many-faces`
 
 ### Face distance
 
-Describes how different two faces are.
+Describes how similar two faces are.
 
 ### Face bouncing
 
-Describes bouncing between person during processing frames as of failing face recognition.
-
-In case you experience this on a video with a single person: lower the `--similar-face-distance` or use `--many-faces` to bypass the face recognition.
+Describes flicker between person during processing frames as of failing face recognition.
