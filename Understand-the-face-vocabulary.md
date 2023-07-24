@@ -5,7 +5,7 @@ Describes the snapshot of a face being used for the face recognition during proc
 #### Different approaches
 
 1. Define the face position via `--reference-face-position` on a frame `--reference-frame-number` of the target video
-2. Upload a image via `--reference-path` and to extract the face (not implemented yet)
+2. Upload a image via `--reference-path` to extract the reference face (not implemented yet)
 
 ### Face recognition
 
