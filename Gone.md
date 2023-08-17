@@ -1,1 +1,0 @@
-Our documentation move [here](https://roop-ai.gitbook.io/roop).
