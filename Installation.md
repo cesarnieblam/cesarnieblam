@@ -1,8 +1,8 @@
 ### 1. Setup your platform
 
-- Linux
-- MacOS
-- Windows
+- [Linux](https://github.com/s0md3v/roop/wiki/Setup-Linux)
+- [MacOS](https://github.com/s0md3v/roop/wiki/Setup-MacOS)
+- [Windows](https://github.com/s0md3v/roop/wiki/Setup-Windows)
 
 ### 2. Clone Repository
 
