@@ -1,0 +1,23 @@
+### 1. Setup your platform
+
+- Linux
+- MacOS
+- Windows
+
+### 2. Clone Repository
+
+```
+git clone https://github.com/s0md3v/roop
+```
+
+### 3. Install dependencies
+
+We highly recommend to work with a venv or conda to avoid issues.
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Done
+
+You should be able to run roop using `python run.py` command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
